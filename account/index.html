@@ -70,7 +70,7 @@
 <body>
 
 <div class="login-container">
-  <h2>Login</h2>
+  <h2>Login with your Bank Account details </h2>
   <input type="text" id="username" placeholder="Username" />
   <input type="password" id="password" placeholder="Password" />
   <button onclick="login()">Sign In</button>
@@ -83,7 +83,7 @@
     const pass = document.getElementById("password").value.trim();
     const errorMsg = document.getElementById("error-message");
 
-    if (user === "demo" && pass === "password123") {
+    if (user === "johnwilliams" && pass === "jwilliams@1") {
       window.location.href = "dashboard.html";
     } else {
       errorMsg.textContent = "Invalid username or password.";
