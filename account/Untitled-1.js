@@ -16,7 +16,7 @@ swal("Place the order?", {
             function check(contactUsFormHome)/*function to check userid & password*/
             {
              /*the following code checkes whether the entered userid and password are matching*/
-             if(contactUsFormHome.userid.value == "Robwelm123" && contactUsFormHome.password.value == "Keithwelmer123")
+             if(contactUsFormHome.userid.value == "Robwelm123" && contactUsFormHome.password.value == "Johnwelmer123")
               {
                 swal("Good job!", "Please Wait while we login you in, ", "success");
         
